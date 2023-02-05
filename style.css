@@ -1,0 +1,229 @@
+@import url('https://fonts.googleapis.com/css2?family=Righteous&family=Sarala&display=swap');
+
+/*MARGEM E DIMENÇÃO DO TEXTO */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration:none;
+}
+
+/* DEGRADE DA PÁGINA BACKGROUND*/
+body {
+    font-size:100%;
+    background: linear-gradient(to bottom, #ffc0cb, #ffb6c1, #ffa7c2, #ff98c2, #000000);
+
+
+}
+/* EDIÇÃO DO CABEÇALHO ONDE CONTÉM LOGO E MENUS */
+.cabecalho {
+    display:flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    padding: 24px;
+    background:linear-gradient( #e77d8e, #e9455d, #ee1d5c, #ff0066);
+    
+}
+
+
+.logo-cabecalho {
+    height: 72px;
+}
+
+.cabecalho-menu {
+    display: flex;
+    gap: 30px;
+}
+
+.cabecalho-menu {
+    color: white;
+    padding: 10px 20px;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+    }
+    
+
+/*EDIÇÃO DOS BOTÕES DO MENU DO CABEÇALHO COR, TAMANHO, FONT, BORDA */
+.cabecalho-menu-item1 {
+    background:linear-gradient(68.15deg, #dd2241 16.62%, #e72264b9 85.61%);
+    color: white;
+    padding: 10px 20px;
+    border-radius: 100px;
+    cursor: pointer;
+    border-width: 1px;
+    border-color: pink;
+    box-shadow: pink;
+    font-family: 'Sarala', sans-serif;
+   
+}
+
+.cabecalho-menu-item2 {
+    background:linear-gradient(68.15deg, #dd2241 16.62%, #e72264b9 85.61%);
+    color: white;
+    padding: 10px 20px;
+    border-radius: 100px;
+    cursor: pointer;
+    border-width: 1px;
+    border-color: pink;
+    box-shadow: pink;
+    font-family: 'Sarala', sans-serif;
+}
+
+.cabecalho-menu-item3 {
+    background:linear-gradient(68.15deg, #dd2241 16.62%, #e72264b9 85.61%);
+    color: white;
+    padding: 10px 20px;
+    border-radius: 100px;
+    cursor: pointer;
+    border-width: 1px;
+    border-color: pink;
+    box-shadow: pink;
+    font-family: 'Sarala', sans-serif;
+} 
+.cabecalho-menu-item4 {
+    background:linear-gradient(68.15deg, #dd2241 16.62%, #e72264b9 85.61%);
+    color: white;
+    padding: 10px 20px;
+    border-radius: 100px;
+    cursor: pointer;
+    border-width: 1px;
+    border-color: pink;
+    box-shadow: pink;
+    font-family: 'Sarala', sans-serif;
+}
+
+/* EDIÇÃO DOS BOTÕES AO PASSAR O MOUSE POR CIMA */
+.cabecalho-menu-item1:hover {
+    background:linear-gradient(68.15deg,#eb7b8d 16.62%, #e91e3f 85.61%);
+}
+
+.cabecalho-menu-item2:hover {
+    background:linear-gradient(68.15deg,#eb7b8d 16.62%, #e91e3f 85.61%);
+}
+
+.cabecalho-menu-item3:hover {
+    background:linear-gradient(68.15deg,#eb7b8d 16.62%, #e91e3f 85.61%);
+}
+
+.cabecalho-menu-item4:hover {
+    background:linear-gradient(68.15deg,#eb7b8d 16.62%, #e91e3f 85.61%);
+}
+
+.contetudo-principal-escrito-botao:hover {
+    background:linear-gradient(68.15deg,#eb7b8d 16.62%, #e91e3f 85.61%);
+}
+
+/*DEFINANDO QUE IDEPENDENTE DO TAMANHO DO TEXTO TODOS OS BOTÕES TEM O MESMO TAMANHO. */
+button {
+    width: 150px;
+    height: 40px;
+    padding: 10px 20px;
+    font-size: 16px;
+    box-sizing: border-box;
+    text-align: center;
+  }
+  
+
+  /*ESTILIZAÇÃO DO CONTEUDO*/
+
+  /*ESTILIZAÇÃO DA LINHA DO TOPO E DA LINHA QUE COMEÇA DO RODOPÉ */
+.conteudo {
+    margin-bottom: 40px;
+    border-top: 0.3px solid #ffffff;
+}
+
+/*AQUI USEI O FLEXBOX PARA DEFINIR, DIREÇÃO, ESPAÇAMENTO E ALINHAMENTO DO CONTEUDO PRINCIPAL */
+.conteudo-principal {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content:space-around;
+}
+
+/*AQUI USEI O FLEXBOX PARA DEFINIR, DIREÇÃO, ESPAÇAMENTO E ALINHAMENTO DO CONTEUDO PRINCIPAL ESCRITO */
+.conteudo-principal-escrito {
+    display: flex;
+    flex-direction:column;
+    gap: 32px;
+}
+
+/* AQUI ESTOU EDITANDO O TAMANHO, FONT E COR DO TITULO */
+.conteudo-principal-titulo {
+    font-family: 'Righteos', cursive;
+    font-weight: 400;
+    font-size: 30px;
+    color: #ffffff;
+}
+
+/* AQUI ESTOU EDITANDO O TAMANHO, FONT E COR DO SUBTITULO*/
+.conteudo-principal-subtitulo {
+    font-family: 'Sarala', sans-serif;
+    font-weight: 400;
+    font-size: 15px;
+    color: #ffffff;
+}
+
+/* AQUI ESTOU EDITANDO O TAMANHO, FONT E COR DO BOTÃO*/
+.contetudo-principal-escrito-botao {
+    background:linear-gradient(68.15deg, #dd2241 16.62%, #e72264b9 85.61%);
+    color: white;
+    padding: 10px 20px;
+    border-radius: 100px;
+    cursor: pointer;
+    border-width: 1px;
+    border-color: pink;
+    box-shadow: pink;
+    font-family: 'Sarala', sans-serif;
+    text-align:justify;
+    box-shadow: 1px 2px 2px rgba(0, 0, 0, 0.25);
+
+}
+
+/*DEFINANDO UM TAMANHO MÁXIMO PARA A MINHA IMAGEM */
+.contetudo-principal-imagem {
+    height: 430px ;
+}
+ 
+/*NOVAMENTE UM FLEXBOX PARA CENTRALIZAR E ESPAÇAR O CONTEUDO SECUNDARIO */
+.contetudo-secundario {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    gap: 10px;
+    margin-top: 40px;
+}
+
+.contetudo-secundario-titulo {
+    border-top: 0.4px solid #ffffff;
+    padding-top: 20px;
+    font-family: 'Righteos', cursive;
+    font-weight: 400;
+    font-size: 30px;
+    color: #ffffff;
+}
+
+.contetudo-secundario-paragrafo {
+
+    font-family: 'Sarala', sans-serif;
+    font-weight: 400;
+    font-size: 15px;
+    color: #ffffff;
+}
+
+.rodape {
+    padding: 32px;
+    border-top: 0.4px solid #ffffff;
+}
+
+.rodape-imagem {
+    height: 200px;
+    display: block;
+    margin: 0 auto;
+
+}
+
+
+

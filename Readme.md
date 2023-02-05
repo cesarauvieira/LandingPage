@@ -1,0 +1,1 @@
+Olá este projeto é uma tentativa de Landing Page sobre um tema especifico de música mais especifico kpop da banda BlackPink. 
