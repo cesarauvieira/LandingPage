@@ -1,3 +1,4 @@
-var lisa = {
-    
-}
+var Store
+
+button.onclick (href="Store");
+Alert (" oi");

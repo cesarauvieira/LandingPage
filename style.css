@@ -11,7 +11,7 @@
 /* DEGRADE DA PÁGINA BACKGROUND*/
 body {
     font-size:100%;
-    background: linear-gradient(to bottom, #ffc0cb, #ffb6c1, #ffa7c2, #ff98c2, #000000);
+    background: linear-gradient(to bottom,#000000, #1b1919);
 
 
 }
@@ -22,7 +22,7 @@ body {
     align-items: center;
     justify-content: space-around;
     padding: 24px;
-    background:linear-gradient( #e77d8e, #e9455d, #ee1d5c, #ff0066);
+    background:linear-gradient( #000000, #1b1919);
     
 }
 
@@ -46,83 +46,38 @@ body {
     
 
 /*EDIÇÃO DOS BOTÕES DO MENU DO CABEÇALHO COR, TAMANHO, FONT, BORDA */
-.cabecalho-menu-item1 {
-    background:linear-gradient(68.15deg, #dd2241 16.62%, #e72264b9 85.61%);
-    color: white;
-    padding: 10px 20px;
-    border-radius: 100px;
-    cursor: pointer;
-    border-width: 1px;
-    border-color: pink;
-    box-shadow: pink;
-    font-family: 'Sarala', sans-serif;
+ln {
+    background:linear-gradient(68.15deg, #b44667cc 16.62%, #e98aa9b9 85.61%);
    
+    color: rgb(255, 255, 255);
+    padding: 10px 20px;
+    border-radius: 100px;
+    cursor: pointer;
+    border-width: 1px;
+    border-color: pink;
+    box-shadow: pink;
+    font-family: 'Sarala', sans-serif;
+    
 }
 
-.cabecalho-menu-item2 {
-    background:linear-gradient(68.15deg, #dd2241 16.62%, #e72264b9 85.61%);
-    color: white;
-    padding: 10px 20px;
-    border-radius: 100px;
-    cursor: pointer;
-    border-width: 1px;
-    border-color: pink;
-    box-shadow: pink;
-    font-family: 'Sarala', sans-serif;
-}
 
-.cabecalho-menu-item3 {
-    background:linear-gradient(68.15deg, #dd2241 16.62%, #e72264b9 85.61%);
-    color: white;
-    padding: 10px 20px;
-    border-radius: 100px;
-    cursor: pointer;
-    border-width: 1px;
-    border-color: pink;
-    box-shadow: pink;
-    font-family: 'Sarala', sans-serif;
-} 
-.cabecalho-menu-item4 {
-    background:linear-gradient(68.15deg, #dd2241 16.62%, #e72264b9 85.61%);
-    color: white;
-    padding: 10px 20px;
-    border-radius: 100px;
-    cursor: pointer;
-    border-width: 1px;
-    border-color: pink;
-    box-shadow: pink;
-    font-family: 'Sarala', sans-serif;
-}
 
 /* EDIÇÃO DOS BOTÕES AO PASSAR O MOUSE POR CIMA */
-.cabecalho-menu-item1:hover {
-    background:linear-gradient(68.15deg,#eb7b8d 16.62%, #e91e3f 85.61%);
+ln:hover {
+    background:linear-gradient(68.15deg,#000000, #1b1919);
+    color:#ff98c2;
 }
 
-.cabecalho-menu-item2:hover {
-    background:linear-gradient(68.15deg,#eb7b8d 16.62%, #e91e3f 85.61%);
-}
 
-.cabecalho-menu-item3:hover {
-    background:linear-gradient(68.15deg,#eb7b8d 16.62%, #e91e3f 85.61%);
-}
-
-.cabecalho-menu-item4:hover {
-    background:linear-gradient(68.15deg,#eb7b8d 16.62%, #e91e3f 85.61%);
-}
-
-.contetudo-principal-escrito-botao:hover {
-    background:linear-gradient(68.15deg,#eb7b8d 16.62%, #e91e3f 85.61%);
-}
 
 /*DEFINANDO QUE IDEPENDENTE DO TAMANHO DO TEXTO TODOS OS BOTÕES TEM O MESMO TAMANHO. */
-button {
+ln {
     width: 150px;
     height: 40px;
     padding: 10px 20px;
-    font-size: 16px;
+    font-size: 14px;
     box-sizing: border-box;
-    text-align: center;
+    text-align:center;
   }
   
 
@@ -131,7 +86,7 @@ button {
   /*ESTILIZAÇÃO DA LINHA DO TOPO E DA LINHA QUE COMEÇA DO RODOPÉ */
 .conteudo {
     margin-bottom: 40px;
-    border-top: 0.3px solid #ffffff;
+    border-top: 0.3px solid #ca72bc;
 }
 
 /*AQUI USEI O FLEXBOX PARA DEFINIR, DIREÇÃO, ESPAÇAMENTO E ALINHAMENTO DO CONTEUDO PRINCIPAL */
@@ -167,7 +122,7 @@ button {
 
 /* AQUI ESTOU EDITANDO O TAMANHO, FONT E COR DO BOTÃO*/
 .contetudo-principal-escrito-botao {
-    background:linear-gradient(68.15deg, #dd2241 16.62%, #e72264b9 85.61%);
+    background:linear-gradient(68.15deg, #b44667cc 16.62%, #e98aa9b9 85.61%);
     color: white;
     padding: 10px 20px;
     border-radius: 100px;
@@ -181,9 +136,15 @@ button {
 
 }
 
-/*DEFINANDO UM TAMANHO MÁXIMO PARA A MINHA IMAGEM */
-.contetudo-principal-imagem {
-    height: 430px ;
+/*DEFINANDO UM TAMANHO MÁXIMO PARA MEU VIDEO*/
+.contetudo-principal-video {
+    
+border: #ffb6c1;
+box-shadow: #ff98c2;
+  
+
+
+
 }
  
 /*NOVAMENTE UM FLEXBOX PARA CENTRALIZAR E ESPAÇAR O CONTEUDO SECUNDARIO */
@@ -194,10 +155,11 @@ button {
     justify-content: space-around;
     gap: 10px;
     margin-top: 40px;
+    margin-bottom: 50px;
 }
 
 .contetudo-secundario-titulo {
-    border-top: 0.4px solid #ffffff;
+    border-top: 0.4px solid #ca72bc;
     padding-top: 20px;
     font-family: 'Righteos', cursive;
     font-weight: 400;
@@ -211,11 +173,13 @@ button {
     font-weight: 400;
     font-size: 15px;
     color: #ffffff;
+    
 }
 
 .rodape {
-    padding: 32px;
-    border-top: 0.4px solid #ffffff;
+    
+    padding:0.5px;
+    border-top: 0.4px solid #ca72bc;
 }
 
 .rodape-imagem {
@@ -225,5 +189,14 @@ button {
 
 }
 
+footer {
+    background:linear-gradient(68.15deg, #b44667cc 16.62%, #e98aa9b9 85.61%);
 
+    
+    
+  }
+  
+.a {
+   list-style: none;
 
+}
