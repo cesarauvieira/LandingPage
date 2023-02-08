@@ -1,0 +1,227 @@
+@import url('https://fonts.googleapis.com/css2?family=Righteous&family=Sarala&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration:none;
+}
+.cabecalho {
+    display:flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    padding: 24px;
+    background:linear-gradient( #000000, #1b1919);
+}
+
+.logo-cabecalho {
+    height: 72px;
+}
+
+.cabecalho-menu {
+    display: flex;
+    gap: 30px;
+}
+
+.cabecalho-menu {
+    color: white;
+    padding: 10px 20px;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+    }
+.Loja {
+        background:linear-gradient(68.15deg, #b44667cc 16.62%, #e98aa9b9 85.61%);
+       
+        color: rgb(255, 255, 255);
+        padding: 10px 20px;
+        border-radius: 100px;
+        cursor: pointer;
+        border-width: 1px;
+        border-color: pink;
+        box-shadow: pink;
+        font-family: 'Sarala', sans-serif;
+        width: 150px;
+        height: 40px;
+        padding: 10px 20px;
+        font-size: 14px;
+        box-sizing: border-box;
+        text-align:center;
+    
+    }
+    
+.Album {
+        background:linear-gradient(68.15deg, #b44667cc 16.62%, #e98aa9b9 85.61%);
+       
+        color: rgb(255, 255, 255);
+        padding: 10px 20px;
+        border-radius: 100px;
+        cursor: pointer;
+        border-width: 1px;
+        border-color: pink;
+        box-shadow: pink;
+        font-family: 'Sarala', sans-serif;
+        width: 150px;
+        height: 40px;
+        padding: 10px 20px;
+        font-size: 14px;
+        box-sizing: border-box;
+        text-align:center;
+    
+    }
+.Musicas {
+        background:linear-gradient(68.15deg, #b44667cc 16.62%, #e98aa9b9 85.61%);
+       
+        color: rgb(255, 255, 255);
+        padding: 10px 20px;
+        border-radius: 100px;
+        cursor: pointer;
+        border-width: 1px;
+        border-color: pink;
+        box-shadow: pink;
+        font-family: 'Sarala', sans-serif;
+        width: 150px;
+        height: 40px;
+        padding: 10px 20px;
+        font-size: 14px;
+        box-sizing: border-box;
+        text-align:center;
+    
+    }
+.userAndPassword {
+        background:linear-gradient(68.15deg, #b44667cc 16.62%, #e98aa9b9 85.61%);
+       
+        color: rgb(255, 255, 255);
+        padding: 10px 20px;
+        border-radius: 100px;
+        cursor: pointer;
+        border-width: 1px;
+        border-color: pink;
+        box-shadow: pink;
+        font-family: 'Sarala', sans-serif;
+        width: 150px;
+        height: 40px;
+        padding: 10px 20px;
+        font-size: 14px;
+        box-sizing: border-box;
+        text-align:center;
+    }
+
+    /* EDIÇÃO DOS BOTÕES AO PASSAR O MOUSE POR CIMA */
+.Loja:hover {
+    background:linear-gradient(68.15deg,#000000, #1b1919);
+    color:#ff98c2;
+}
+.Album:hover {
+    background:linear-gradient(68.15deg,#000000, #1b1919);
+    color:#ff98c2;
+}
+.Musicas:hover {
+    background:linear-gradient(68.15deg,#000000, #1b1919);
+    color:#ff98c2;
+}
+.userAndPassword:hover {
+    background:linear-gradient(68.15deg,#000000, #1b1919);
+    color:#ff98c2;
+}
+
+    
+.usuario {
+    font-family: 'Sarala', sans-serif;
+    background-color: rgba(255, 255, 255, 0.1);
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    padding: 30px;
+    border-radius: 50px;
+    color: white;
+}
+
+img {
+  max-width: 150px;
+  
+}
+
+h1 {
+    display: flex;
+    justify-content: center;
+}
+
+input {
+    padding: 15px;
+    border: none;
+    outline: none;
+    font-size: 15px;
+    border-radius: 50px;
+}
+
+button {
+    background:linear-gradient(68.15deg, #b44667cc 16.62%, #e98aa9b9 85.61%);
+    color: rgb(255, 255, 255);
+    padding: 10px 20px;
+    border-radius: 100px;
+    cursor: pointer;
+    border-width: 1px;
+    border-color: pink;
+    box-shadow: pink;
+    font-family: 'Sarala', sans-serif;
+    width: 150px;
+    height: 40px;
+    padding: 10px 20px;
+    font-size: 14px;
+    box-sizing: border-box;
+    text-align:center;
+}
+
+button:hover {
+    background:linear-gradient(68.15deg,#000000, #1b1919);
+    color:#ff98c2;;
+}
+
+
+body {
+    height: 100vh;
+     background: linear-gradient(68.15deg, #b44667cc 16.62%, #e98aa9b9 85.61%);
+  
+  }
+  
+  .slider-thumb::before {
+    position: absolute;
+    content: "";
+    left: 26%;
+    top: 20%;
+    width: 600px;
+    height: 550px;
+    background: #000000;
+    clip-path: polygon(50% 0%, 61% 35%, 98% 35%, 68% 57%, 79% 91%, 50% 70%, 21% 91%, 32% 57%, 2% 35%, 39% 35%);
+    will-change: clip-path, transform, opacity;
+    animation: sliderShape 10s linear infinite;
+    display: block;
+    z-index: -1;
+    -webkit-animation: sliderShape s linear infinite;
+  }
+  
+  
+  
+  
+  
+  @keyframes sliderShape{
+    0%, 100% {
+        clip-path: polygon(50% 0%, 61% 35%, 98% 35%, 68% 57%, 79% 91%, 50% 70%, 21% 91%, 32% 57%, 2% 35%, 39% 35%);
+        transform: translate3d(0, 0, 0) rotateZ(0.01deg);
+      }
+      25% {
+        clip-path: polygon(50% 0%, % 20%, 98% 50%, 67% 80%, 50% 100%, 33% 80%, 2% 50%, 33% 20%);
+        transform: translate3d(10px, 10px, 0) rotateZ(45deg);
+      }
+      50% {
+        clip-path: polygon(50% 0%, 61% 35%, 98% 35%, 68% 57%, 79% 91%, 50% 70%, 21% 91%, 32% 57%, 2% 35%, 39% 35%);
+        transform: translate3d(0, 0, 0) rotateZ(0.01deg);
+      }
+      75% {
+        clip-path: polygon(50% 20%, 70% 5%, 95% 35%, 70% 65%, 50% 80%, 30% 65%, 5% 35%, 30% 5%);
+        transform: translate3d(-10px, -10px, 0) rotateZ(-45deg);
+      }
+    }

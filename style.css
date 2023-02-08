@@ -46,7 +46,7 @@ body {
     
 
 /*EDIÇÃO DOS BOTÕES DO MENU DO CABEÇALHO COR, TAMANHO, FONT, BORDA */
-ln {
+/*ln {
     background:linear-gradient(68.15deg, #b44667cc 16.62%, #e98aa9b9 85.61%);
    
     color: rgb(255, 255, 255);
@@ -63,15 +63,30 @@ ln {
 
 
 /* EDIÇÃO DOS BOTÕES AO PASSAR O MOUSE POR CIMA */
-ln:hover {
+.Loja:hover {
+    background:linear-gradient(68.15deg,#000000, #1b1919);
+    color:#ff98c2;
+}
+.Album:hover {
+    background:linear-gradient(68.15deg,#000000, #1b1919);
+    color:#ff98c2;
+}
+.Musicas:hover {
+    background:linear-gradient(68.15deg,#000000, #1b1919);
+    color:#ff98c2;
+}
+.userAndPassword:hover {
+    background:linear-gradient(68.15deg,#000000, #1b1919);
+    color:#ff98c2;
+}
+.buttonVamosNessa:hover {
     background:linear-gradient(68.15deg,#000000, #1b1919);
     color:#ff98c2;
 }
 
 
-
 /*DEFINANDO QUE IDEPENDENTE DO TAMANHO DO TEXTO TODOS OS BOTÕES TEM O MESMO TAMANHO. */
-ln {
+/*ln {
     width: 150px;
     height: 40px;
     padding: 10px 20px;
@@ -196,7 +211,99 @@ footer {
     
   }
   
-.a {
-   list-style: none;
+.Loja {
+    background:linear-gradient(68.15deg, #b44667cc 16.62%, #e98aa9b9 85.61%);
+   
+    color: rgb(255, 255, 255);
+    padding: 10px 20px;
+    border-radius: 100px;
+    cursor: pointer;
+    border-width: 1px;
+    border-color: pink;
+    box-shadow: pink;
+    font-family: 'Sarala', sans-serif;
+    width: 150px;
+    height: 40px;
+    padding: 10px 20px;
+    font-size: 14px;
+    box-sizing: border-box;
+    text-align:center;
+
+}
+
+.Album {
+    background:linear-gradient(68.15deg, #b44667cc 16.62%, #e98aa9b9 85.61%);
+   
+    color: rgb(255, 255, 255);
+    padding: 10px 20px;
+    border-radius: 100px;
+    cursor: pointer;
+    border-width: 1px;
+    border-color: pink;
+    box-shadow: pink;
+    font-family: 'Sarala', sans-serif;
+    width: 150px;
+    height: 40px;
+    padding: 10px 20px;
+    font-size: 14px;
+    box-sizing: border-box;
+    text-align:center;
+
+}
+.Musicas {
+    background:linear-gradient(68.15deg, #b44667cc 16.62%, #e98aa9b9 85.61%);
+   
+    color: rgb(255, 255, 255);
+    padding: 10px 20px;
+    border-radius: 100px;
+    cursor: pointer;
+    border-width: 1px;
+    border-color: pink;
+    box-shadow: pink;
+    font-family: 'Sarala', sans-serif;
+    width: 150px;
+    height: 40px;
+    padding: 10px 20px;
+    font-size: 14px;
+    box-sizing: border-box;
+    text-align:center;
+
+}
+.userAndPassword {
+    background:linear-gradient(68.15deg, #b44667cc 16.62%, #e98aa9b9 85.61%);
+   
+    color: rgb(255, 255, 255);
+    padding: 10px 20px;
+    border-radius: 100px;
+    cursor: pointer;
+    border-width: 1px;
+    border-color: pink;
+    box-shadow: pink;
+    font-family: 'Sarala', sans-serif;
+    width: 150px;
+    height: 40px;
+    padding: 10px 20px;
+    font-size: 14px;
+    box-sizing: border-box;
+    text-align:center;
+
+}
+.buttonVamosNessa {
+    background:linear-gradient(68.15deg, #b44667cc 16.62%, #e98aa9b9 85.61%);
+   
+    color: rgb(255, 255, 255);
+    padding: 10px 20px;
+    border-radius: 100px;
+    cursor: pointer;
+    border-width: 1px;
+    border-color: pink;
+    box-shadow: pink;
+    font-family: 'Sarala', sans-serif;
+    width: 150px;
+    height: 40px;
+    padding: 10px 20px;
+    font-size: 14px;
+    box-sizing: border-box;
+    text-align:center;
 
 }
